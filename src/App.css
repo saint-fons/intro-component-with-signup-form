@@ -1,38 +1,198 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*DESKTOP*/
+
+@media (min-width: 1440px) {
+    .App {
+        font-family: 'Poppins', sans-serif;
+
+        width: 100%;
+        min-height: 1500px;
+        margin: 0;
+
+        background-image: url("./img/bg-intro-desktop.png");
+        background-color: #ffa75f;
+        background-size: cover;
+    }
+
+    .TryItFree {
+        color: white;
+
+        width: 500px;
+        height: 65px;
+
+        background-color: #4b3a80;
+        border-radius: 15px;
+
+        margin: -500px 0 0 850px;
+        padding: 25px 0 0 110px;
+
+        box-shadow: 1px 11px 3px 0px rgba(34, 60, 80, 0.19);
+    }
+
+    .HowToCodeContainer {
+        width: 450px;
+        height: 350px;
+
+        color: white;
+        font-size: 17px;
+
+        margin: 380px 0 0 300px;
+    }
+
+    .LearnToCode {
+        width: 350px;
+        height: 120px;
+
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .AgreeingTerms {
+        padding: 7px 0 0 50px;
+
+        color: darkgray;
+
+        font-size: 12px;
+    }
+
+    .TermsAndServices {
+        color: #ff6a14;
+        margin: -4px 0 0 5px;
+    }
+
+    .WeightSpan {
+        font-weight: bold;
+    }
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*DESKTOP*/
+
+
+/*MOBILE*/
+
+
+@media (max-width: 1440px) {
+
+    .App {
+        font-family: 'Poppins', sans-serif;
+
+        width: 100%;
+        min-height: 1000px;
+        margin: 0;
+
+        background-image: url("./img/bg-intro-mobile.png");
+        background-color: #ffa75f;
+        background-size: cover;
+    }
+
+
+    .HowToCodeContainer {
+        width: 300px;
+        height: 250px;
+
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+
+        margin: auto;
+    }
+
+
+    .LearnToCode {
+        width: 300px;
+        height: 110px;
+
+        font-weight: 700;
+        font-size: 25px;
+        text-align: center;
+
+        margin: auto;
+
+        padding-top: 15px;
+    }
+
+    .TryItFree {
+        color: white;
+
+        width: 350px;
+        height: 75px;
+
+        background-color: #4b3a80;
+        border-radius: 15px;
+
+        padding: 15px 0 0 110px;
+        margin: auto;
+
+        box-shadow: 1px 11px 3px 0 rgba(34, 60, 80, 0.19);
+    }
+
+    .AgreeingTerms {
+        padding: 7px 0 0 30px;
+
+        color: darkgray;
+
+        font-size: 8px;
+    }
+
+    .TermsAndServices {
+        color: #ff6a14;
+        margin: -7px 0 0 5px;
+
+        font-size: 8px;
+    }
+
+    .WeightSpan {
+        font-weight: bold;
+    }
+
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+/*MOBILE*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

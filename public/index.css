@@ -1,12 +1,44 @@
-body, html {
+@media (min-width: 520px) {
+    body, html {
 
-    background-image: url("./bg-intro-desktop.png");
-    background-color: #ffa75f;
-    /* Full height */
-    height: 100%;
+        background-image: url("./bg-intro-desktop.png");
+        background-color: #ffa75f;
+        /* Full height */
+        height: 100%;
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 520px) {
+    body, html {
+
+        background-image: url("./bg-intro-mobile.png");
+        background-color: #ffa75f;
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    @media (max-width: 320px) {
+        body, html {
+
+            background-image: url("./bg-intro-mobile.png");
+            background-color: #ffa75f;
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
 }

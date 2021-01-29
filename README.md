@@ -1,6 +1,6 @@
 # Форма регистрации пользователя
 
-Live version [Create React App](https://github.com/facebook/create-react-app).
+Live version [Create React App](https://intro-component-with-signup-form-jade.vercel.app/).
 
 ## Available Scripts
 

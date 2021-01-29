@@ -13,20 +13,23 @@ const onSubmit = async values => {
 
 const NewForm = () => {
     return (
-        <div>
+        <div className={"FormContainer"}>
             <div className={"HowToCodeContainer"}>
-                <div className={"LearnToCode"}>
-                    Learn to code by watching others
+                <div className={"HowToCodeText"}>
+                    <div className={"LearnToCode"}>
+                        Learn to code by watching others
+                    </div>
+                    See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+                    but understanding how developers think is invaluable.
                 </div>
-                See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
-                but understanding how developers think is invaluable.
-            </div>
-            <div className={"TryItFree"}>
-                <span className={"WeightSpan"}>Try it free 7 days</span> then $20/mo. thereafter
             </div>
 
+            <div className={"FromEnterLogin"}>
 
-            <div className={"FormContainer"}>
+                <div className={"TryItFree"}>
+                    <span className={"WeightSpan"}>Try it free 7 days</span> then $20/mo. thereafter
+                </div>
+
                 <Styles>
                     <Form
                         onSubmit={onSubmit}
@@ -100,7 +103,8 @@ const NewForm = () => {
                                     </button>
                                 </div>
                                 <div className={"AgreeingTerms"}>
-                                    By clicking the button, you are agreeing to our <span className={"TermsAndServices"}>Terms and Services</span>
+                                    By clicking the button, you are agreeing to our <span
+                                    className={"TermsAndServices"}>Terms and Services</span>
                                 </div>
                             </form>
                         )}

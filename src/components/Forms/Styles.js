@@ -2,7 +2,6 @@ import styled, {css} from 'styled-components'
 
 const btn = (light, dark) => css`
   white-space: nowrap;
-  display: inline-block;
   border-radius: 5px;
   padding: 15px 15px;
   font-size: 16px;
@@ -67,12 +66,10 @@ export default styled.div`
     form {
       background-color: white;
       max-width: 500px;
-      margin: 25px 0 0 850px;
       border: 1px solid #ccc;
       padding: 20px;
       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
       border-radius: 15px;
-      position: relative;
 
       & > div {
         display: flex;

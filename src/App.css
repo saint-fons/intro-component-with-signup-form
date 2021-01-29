@@ -2,22 +2,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow: hidden
 }
 
 /*DESKTOP*/
 
 @media (min-width: 1440px) {
     .App {
-        font-family: 'Poppins', sans-serif;
+    }
 
+
+    .FormContainer {
         width: 100%;
-        min-height: 1500px;
-        margin: 0;
 
-        background-image: url("./img/bg-intro-desktop.png");
-        background-color: #ffa75f;
-        background-size: cover;
+        margin: auto;
+
+        display: flex;
     }
 
     .TryItFree {
@@ -29,20 +28,37 @@
         background-color: #4b3a80;
         border-radius: 15px;
 
-        margin: -500px 0 0 850px;
+
         padding: 25px 0 0 110px;
 
-        box-shadow: 1px 11px 3px 0px rgba(34, 60, 80, 0.19);
+        box-shadow: 1px 11px 3px 0 rgba(34, 60, 80, 0.19);
     }
 
+
     .HowToCodeContainer {
-        width: 450px;
-        height: 350px;
+        position: relative;
+        top: 50%;
+        left: 0;
+        z-index: 1;
+
+        width: 50%;
+        height: 50%;
 
         color: white;
         font-size: 17px;
+    }
 
-        margin: 380px 0 0 300px;
+    .HowToCodeText {
+        width: 70%;
+
+        min-height: 250px;
+
+        margin: auto;
+    }
+
+
+    .FromEnterLogin {
+        width: 50%;
     }
 
     .LearnToCode {
@@ -80,78 +96,6 @@
 
 @media (max-width: 1440px) {
 
-    .App {
-        font-family: 'Poppins', sans-serif;
-
-        width: 100%;
-        min-height: 1000px;
-        margin: 0;
-
-        background-image: url("./img/bg-intro-mobile.png");
-        background-color: #ffa75f;
-        background-size: cover;
-    }
-
-
-    .HowToCodeContainer {
-        width: 300px;
-        height: 250px;
-
-        color: white;
-        font-size: 14px;
-        text-align: center;
-        font-weight: 500;
-
-        margin: auto;
-    }
-
-
-    .LearnToCode {
-        width: 300px;
-        height: 110px;
-
-        font-weight: 700;
-        font-size: 25px;
-        text-align: center;
-
-        margin: auto;
-
-        padding-top: 15px;
-    }
-
-    .TryItFree {
-        color: white;
-
-        width: 350px;
-        height: 75px;
-
-        background-color: #4b3a80;
-        border-radius: 15px;
-
-        padding: 15px 0 0 110px;
-        margin: auto;
-
-        box-shadow: 1px 11px 3px 0 rgba(34, 60, 80, 0.19);
-    }
-
-    .AgreeingTerms {
-        padding: 7px 0 0 30px;
-
-        color: darkgray;
-
-        font-size: 8px;
-    }
-
-    .TermsAndServices {
-        color: #ff6a14;
-        margin: -7px 0 0 5px;
-
-        font-size: 8px;
-    }
-
-    .WeightSpan {
-        font-weight: bold;
-    }
 
 
 }
